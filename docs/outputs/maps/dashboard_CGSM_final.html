@@ -1382,10 +1382,19 @@ setTimeout(function() {
   var cgsmMap = map_36248b2cce1e183a7a7c68c3199296e7;
   var cgsmActiveLayer = null;
 
+  // Pane dedicado z-index 450: el raster NDVI año va ENCIMA de los polígonos
+  // (overlayPane z=400) pero debajo de los markers (markerPane z=600).
+  if (!cgsmMap.getPane('ndviYearPane')) {
+    cgsmMap.createPane('ndviYearPane');
+    cgsmMap.getPane('ndviYearPane').style.zIndex = 450;
+    cgsmMap.getPane('ndviYearPane').style.pointerEvents = 'none';
+  }
+
   function cgsmShowYear(year) {
     if (cgsmActiveLayer) { cgsmMap.removeLayer(cgsmActiveLayer); }
     cgsmActiveLayer = L.tileLayer(cgsmYears[year], {
-      opacity: 0.85,
+      opacity: 0.75,
+      pane: 'ndviYearPane',
       attribution: 'Google Earth Engine · Sentinel-2 NDVI'
     });
     cgsmActiveLayer.addTo(cgsmMap);
