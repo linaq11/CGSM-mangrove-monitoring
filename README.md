@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-black)
 ![Stack](https://img.shields.io/badge/Stack-Python%20%C2%B7%20R%20%C2%B7%20Julia-blue)
 [![Dashboard en vivo](https://img.shields.io/badge/Dashboard-en%20vivo-success?logo=github)](https://linaq11.github.io/cgsm-mangrove-monitoring/dashboard.html)
-[![Informe PDF](https://img.shields.io/badge/Descargar-Informe%20PDF-red)](https://github.com/linaq11/cgsm-mangrove-monitoring/raw/main/docs/informe_final.pdf)
+[![Informe PDF](https://img.shields.io/badge/Descargar-Informe%20PDF-red)](https://github.com/linaq11/CGSM-mangrove-monitoring/raw/main/docs/informe_final.pdf)
 
 > 🌿 **Dashboard interactivo**: <https://linaq11.github.io/cgsm-mangrove-monitoring/dashboard.html>
 >
@@ -59,7 +59,7 @@ El proyecto se ejecuta dentro del contenedor Docker `sig_unal v1.11` que integra
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/linaq11/cgsm-mangrove-monitoring
+git clone https://github.com/linaq11/CGSM-mangrove-monitoring
 cd cgsm-mangrove-monitoring
 
 # Levantar el contenedor (requiere Docker Desktop)
