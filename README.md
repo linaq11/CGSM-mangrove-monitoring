@@ -4,10 +4,10 @@
 
 ![License](https://img.shields.io/badge/License-MIT-black)
 ![Stack](https://img.shields.io/badge/Stack-Python%20%C2%B7%20R%20%C2%B7%20Julia-blue)
-[![Dashboard en vivo](https://img.shields.io/badge/Dashboard-en%20vivo-success?logo=github)](https://linaq11.github.io/cgsm-mangrove-monitoring/dashboard.html)
+[![Dashboard en vivo](https://img.shields.io/badge/Dashboard-en%20vivo-success?logo=github)](https://linaq11.github.io/CGSM-mangrove-monitoring/dashboard.html)
 [![Informe PDF](https://img.shields.io/badge/Descargar-Informe%20PDF-red)](https://github.com/linaq11/CGSM-mangrove-monitoring/raw/main/docs/informe_final.pdf)
 
-> 🌿 **Dashboard interactivo**: <https://linaq11.github.io/cgsm-mangrove-monitoring/dashboard.html>
+> 🌿 **Dashboard interactivo**: <https://linaq11.github.io/CGSM-mangrove-monitoring/dashboard.html>
 >
 > 🛰 **Datos NASA y observación terrestre**: Landsat 8/9 (NASA-USGS), SRTM v3 (NASA), índices ENSO ONI/SOI (NOAA CPC), Global Flood Database (Dartmouth, deriva de MODIS NASA), segmentación con [SamGeo](https://github.com/opengeos/segment-geospatial) (Qiusheng Wu). Tema afín a [Flood Early Warning · NASA Lifelines](https://nasalifelines.org/hfs-data-series/flood-early-warning-2/).
 
